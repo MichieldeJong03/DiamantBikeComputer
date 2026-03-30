@@ -1,0 +1,25 @@
+firmware/.pio/
+firmware/.vscode/
+
+*.o
+*.a
+*.elf
+*.bin
+*.map
+
+
+
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore downloaded/generated map tiles 
+tools/MapSyncApp/output_tiles/
+tools/MapSyncApp/temp_tiles/
+
+# OS files
+Thumbs.db
+.DS_Store
